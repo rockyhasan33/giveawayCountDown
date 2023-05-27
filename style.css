@@ -16,10 +16,10 @@
 .giveaway {
     background-color: yellow;
     width: 70%;
-    height: 30vh;
+    height: auto;
     padding: 15px;
     display: flex;
-
+    gap: 8px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -49,5 +49,6 @@ h2 {
 }
 
 h4 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    word-wrap: break-word;
 }
